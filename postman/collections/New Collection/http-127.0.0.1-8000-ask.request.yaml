@@ -1,0 +1,17 @@
+$kind: http-request
+name: "http://127.0.0.1:8000/ask "
+description: ""
+url: "http://127.0.0.1:8000/ask "
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"question\": \"Which investors backed NovaPay and what awards did NovaPay win?\",\r
+
+    \  \"top_k\": 5,\r
+
+    \  \"use_vector_index\": true\r
+
+    }"
+order: 1000
